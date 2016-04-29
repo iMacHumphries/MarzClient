@@ -23,4 +23,8 @@ try {
 
 ##### Sending a message
 ```
+Dictionary dict = new Dictionary();
+dict.put("user", username);
+dict.put("msg", msg);
+manager.sendToAll(dict);
 ```
